@@ -1,0 +1,89 @@
+.main-content, .spacer-band{
+    background-color: var(--angel-white);
+    z-index: 1;
+}
+
+.spacer-band{
+    height: 60px;
+}
+
+.title{
+    font-family: Poppins-Black !important;
+    font-size: 120px;
+    font-weight: 900;
+    word-wrap: normal;
+    padding: 5px;
+}
+
+.offset, .offset-long{
+    margin-bottom: -70px;
+}
+
+.texture-text{
+    background: url("../assets/Images/holografic-background.png") no-repeat center top;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.head-main{
+    background-image: url("../assets/Images/holografic-background-cut.png");
+    background-position: left top;
+    background-size: cover;
+    overflow: hidden;
+    height: 100px;
+    z-index: 20;
+}
+
+.tail-main{
+    background-image: url("../assets/Images/holografic-background-cut.png");
+    background-position: left bottom;
+    background-size: cover;
+    height: 80px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .offset, .offset-long{
+        margin-bottom: -120px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .title{
+      font-size: 80px;
+    }
+    .offset{
+        margin-bottom: -95px;
+    }
+    .offset-long{
+        margin-bottom: -50px;
+    }
+}
+
+  @media only screen and (max-width: 576px) and (min-width: 420px) {
+    .title{
+      font-size: 70px;
+    }
+    .offset{
+        margin-bottom: -90px;
+    }
+    .offset-long{
+        margin-bottom: -45px;
+    }
+}
+
+  @media only screen and (max-width: 420px) {
+    .title{
+      font-size: 60px;
+    }
+    .offset{
+        margin-bottom: -85px;
+    }
+    .offset-long{
+        margin-bottom: -40px;
+    }
+}
+
+  
