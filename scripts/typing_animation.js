@@ -40,6 +40,9 @@ TxtType.prototype.tick = function() {
 };
 
 window.onload = function() {
+    var half_text = document.getElementById("half-text");
+    half_text.style.marginTop = -half_text.offsetHeight / 2 + "px";
+
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
