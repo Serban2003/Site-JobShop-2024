@@ -1,0 +1,31 @@
+#jobshop .main-content{
+    width: 100%;
+    background-color: white;  
+}
+
+#jobshop .background{
+    background-image: url("../assets/Images/holografic-background.png");
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+#jobshop .title{
+    margin-top: 35px;
+    font-size: 120px;
+    text-align: center;
+}
+
+#jobshop .card-stats{
+    background-color: var(--angel-white);
+}
+
+@media only screen and (max-width: 1920px) {
+    #jobshop .main-content{
+        padding: max(50px, 8vw) 0 0 0;
+    }
+    #jobshop .title{
+      font-size: calc(1.5em + 7vw);
+    }
+}

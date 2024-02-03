@@ -1,0 +1,39 @@
+.navbar{
+    background-image: url("../assets/Images/holografic-background.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+.navbar-brand .logo{
+    height: 50px;
+}
+
+.navbar-brand .flag{
+    height: 20px;
+}
+
+.navbar .nav-link {
+    color: var(--angel-white);
+}
+
+.navbar .nav-link:hover{
+    color: var(--dirty-angel);
+}
+
+.navbar-toggler-icon{
+    background-image: url("../assets/Images/menu_icon.png");
+    filter: invert();
+    width: 40px;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 991.9px) {
+    .navbar .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0 -1.5rem -0.5rem -1.5rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;;
+    }
+}

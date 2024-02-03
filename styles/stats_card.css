@@ -1,0 +1,38 @@
+#stats-card .custom-card{
+    border-radius: 0;
+}
+
+#stats-card .card-img-top{
+    border: 0;
+    mask-image: linear-gradient(#000, 60%, rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(#000, 60%, rgba(0,0,0,0));
+}
+
+#stats-card .card-text{
+    text-align: justify;
+}
+
+#stats-card .texture-text{
+    background: url("../assets/Images/clipmask.png") no-repeat center center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#stats-card .top-card{
+    position: relative;
+}
+
+#stats-card h1{
+    position: absolute;
+    font-size: 100px;
+    bottom: -4.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    #stats-card h1{
+      font-size: 80px;
+    }
+}

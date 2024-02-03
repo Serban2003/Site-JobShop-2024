@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--depressing-purple);
+}
+
+footer .icon{
+    height: 40px;
+    width: 40px;
+    color: var(--crazy-blue);
+    background-color: var(--angel-white);
+    border-radius: 100%;
+    padding: 6px;
+    transition: all 0.3s;
+}
+
+footer .icon:hover{
+    background-color: var(--crazy-blue);
+    color: var(--angel-white);
+}
