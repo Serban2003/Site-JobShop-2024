@@ -38,6 +38,7 @@ nav{
   color: var(--crazy-blue);
   background-color: var(--angel-white);
   width: min(225px, 40%);
+  flex-shrink: 0;
 }
 
 .custom-button:hover{

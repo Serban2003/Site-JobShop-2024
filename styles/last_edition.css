@@ -1,5 +1,6 @@
 #last-edition{
-    z-index: 66;
+    z-index: 2;
+    position: relative;
 }
 #last-edition .main-content{
     background-image: url("../assets/Images/holografic-background-cut.png");

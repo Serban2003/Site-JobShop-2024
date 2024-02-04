@@ -96,3 +96,7 @@ header .offset{
   margin-top: 150px;
   margin-bottom: 80px;
 }
+
+header .typewrite{
+  text-align: left;
+}
