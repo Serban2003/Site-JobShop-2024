@@ -55,7 +55,7 @@ body{
 .half-text{
   position: absolute;
   max-height: 110px;
-  height: max(60px, 10vw);
+  height: max(50px, 10vw);
 }
 
 a, a:active, a:visited{
