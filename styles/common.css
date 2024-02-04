@@ -21,6 +21,10 @@ body{
   color: var(--crazy-blue);
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .poppins-black{
   font-family: Poppins-Black;
 }
