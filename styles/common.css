@@ -17,6 +17,10 @@ body{
     scroll-behavior: smooth;
 }
 
+nav{
+  transition: all 0.3s;
+}
+
 .text-crazy-blue{
   color: var(--crazy-blue);
 }
@@ -58,8 +62,15 @@ body{
   height: max(50px, 10vw);
 }
 
+#jobs .half-text{
+  position: absolute;
+  max-height: 110px;
+  height: max(30px, 10vw);
+}
+
 a, a:active, a:visited{
   columns: var(--angel-white);
+  text-decoration: none;
 }
 
 /* -------- Scroll bar -------- */

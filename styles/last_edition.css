@@ -1,10 +1,12 @@
+#last-edition{
+    z-index: 66;
+}
 #last-edition .main-content{
     background-image: url("../assets/Images/holografic-background-cut.png");
     background-position: left top;
     background-size: cover;
     overflow: hidden;
     margin-top: -70px;
-    z-index: 1;
 }
 
 #last-edition video{
