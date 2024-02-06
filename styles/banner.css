@@ -39,15 +39,12 @@ header .container {
 }
 
 header .title{
-  font-family: Poppins-Black !important;
   font-size: 120px;
-  font-weight: 900;
   word-wrap: normal;
   padding: 5px;
 }
 
 header .subtitle{
-  font-family: Poppins !important;
   font-size: 30px;
   font-weight: 700;
 }
