@@ -11,9 +11,25 @@
     src: url("../assets/Poppins/Poppins-Black.woff");
 }
 
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/Poppins/Poppins-Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/Poppins/Poppins-Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/Poppins/Poppins-SemiBold.woff");
+  font-weight: 600;
+}
+
 body{
     font-family: Poppins !important;
-    font-size: 500;
     scroll-behavior: smooth;
 }
 
