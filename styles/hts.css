@@ -1,12 +1,12 @@
 #hts .image-banner{
     height: 195px;
-    background-image: url("../assets/Images/hts-image.png");
+    background-image: url("../assets/Images/hts-image.jpg");
     background-size: cover;
     background-position: 50% 0%;
 }
 
 #hts .holografic{
-    background-image: url("../assets/Images/holografic-background.png");
+    background-image: url("../assets/Images/holografic-background.jpg");
     background-size: cover;
     background-position: 50%;
 }

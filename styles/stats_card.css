@@ -13,7 +13,7 @@
 }
 
 #stats-card .texture-text{
-    background: url("../assets/Images/clipmask.png") no-repeat center center;
+    background: url("../assets/Images/clipmask.jpg") no-repeat center center;
     background-size: cover;
     -webkit-background-clip: text;
     -moz-background-clip: text;

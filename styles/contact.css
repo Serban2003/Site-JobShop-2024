@@ -20,7 +20,7 @@
 }
 
 .texture-text{
-    background: url("../assets/Images/holografic-background.png") no-repeat center top;
+    background: url("../assets/Images/holografic-background.jpg") no-repeat center top;
     background-size: cover;
     -webkit-background-clip: text;
     -moz-background-clip: text;

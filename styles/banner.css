@@ -63,7 +63,7 @@ header .logo-jobshop{
 }
 
 header .logo-background{
-  background-image: url("../assets/Images/holografic-background.png");
+  background-image: url("../assets/Images/holografic-background.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -85,7 +85,7 @@ header .logo-background{
 }
 
 header .learn-more{
-  background-image: url("../assets/Images/holografic-background.png");
+  background-image: url("../assets/Images/holografic-background.jpg");
   background-size: 150%;
   background-position: center center;
   border-radius: var(--radius);
