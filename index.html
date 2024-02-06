@@ -87,7 +87,7 @@
 
   <!-- START BANNER -->
   <header>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="./assets/Images/video-banner-image.jpg">
+    <video playsinline="playsinline" muted="muted" loop="loop" preload="none" poster="./assets/Images/video-banner-image.jpg" id="banner-video">
       <source src="./assets/Videos/video_banner.mp4" type="video/mp4">
     </video>
     <div class="h-100 py-5 offset">
@@ -129,7 +129,7 @@
   <!-- START LAST EDITION -->
   <div id="last-edition">
     <div class="main-content d-flex justify-content-center align-items-center">
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="./assets/Images/video-thumbnail.jpg">
+      <video playsinline="playsinline" muted="muted" loop="loop" preload="auto" poster="./assets/Images/video-thumbnail.jpg" id="last-edition-video">
         <source src="./assets/Videos/last-edition-l.mp4" type="video/mp4" >
       </video>
     </div>
@@ -344,3 +344,4 @@
 <script type="text/javascript" src="./scripts/hide_background.js"></script>
 <script type="text/javascript" src="./scripts/typing_animation.js"></script>
 <script type="text/javascript" src="./scripts/position_half_text_resize.js"></script>
+<script type="text/javascript" src="./scripts/play_videos.js"></script>
