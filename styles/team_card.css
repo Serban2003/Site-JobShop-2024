@@ -1,11 +1,11 @@
-#contact-card .profile-pic{
+#team-card .profile-pic{
     background-size: cover;
     width: 180px;
     height: 180px;
     border-radius: 100%;
 }
 
-#contact-card .image-background{
+#team-card .image-background{
     background-image: url("../assets/Images/team-portrait.png");
     background-size: contain;
     width: 200px;
