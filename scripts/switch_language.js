@@ -6,6 +6,7 @@ switch(localStorage.getItem('language')){
         
         if(document.title == "JobShop® 2024 - Home") document.title = "JobShop® 2024 - Acasă";
         else if(document.title == "JobShop® 2024 - About") document.title = "JobShop® 2024 - Despre";
+        else if(document.title == "JobShop® 2024 - Team") document.title = "JobShop® 2024 - Echipă";
         console.log("RO");
         break;
     }
@@ -17,7 +18,7 @@ switch(localStorage.getItem('language')){
 
         if(document.title == "JobShop® 2024 - Acasă") document.title = "JobShop® 2024 - Home";
         else if(document.title == "JobShop® 2024 - Despre") document.title = "JobShop® 2024 - About";
-
+        else if(document.title == "JobShop® 2024 - Echipă") document.title = "JobShop® 2024 - Team";
         console.log("EN");
         break;
     }
@@ -29,7 +30,7 @@ switch(localStorage.getItem('language')){
 
         if(document.title == "JobShop® 2024 - Home") document.title = "JobShop® 2024 - Acasă";
         else if(document.title == "JobShop® 2024 - About") document.title = "JobShop® 2024 - Despre";
-
+        else if(document.title == "JobShop® 2024 - Team") document.title = "JobShop® 2024 - Echipă";
         console.log("RO");
     }
 }
@@ -40,6 +41,7 @@ $('input:radio[name="language"]').change(function () {
 
         if(document.title == "JobShop® 2024 - Home") document.title = "JobShop® 2024 - Acasă";
         else if(document.title == "JobShop® 2024 - About") document.title = "JobShop® 2024 - Despre";
+        else if(document.title == "JobShop® 2024 - Team") document.title = "JobShop® 2024 - Echipă";
         
         $('[language]').hide();
         $('[language="ro"]').show();
@@ -49,6 +51,7 @@ $('input:radio[name="language"]').change(function () {
 
         if(document.title == "JobShop® 2024 - Acasă") document.title = "JobShop® 2024 - Home";
         else if(document.title == "JobShop® 2024 - Despre") document.title = "JobShop® 2024 - About";
+        else if(document.title == "JobShop® 2024 - Echipă") document.title = "JobShop® 2024 - Team";
 
         $('[language]').hide();
         $('[language="en"]').show();
