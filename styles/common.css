@@ -64,6 +64,7 @@ nav{
   height: max(30px, 10vw);
 }
 
+
 a, a:active, a:visited{
   columns: var(--angel-white);
   text-decoration: none;
