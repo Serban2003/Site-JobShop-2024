@@ -1,0 +1,57 @@
+.job-card{
+    position: relative;
+}
+
+.job-button{
+    width: calc(100% - var(--bs-gutter-x));
+    margin-left: calc(var(--bs-gutter-x) / 2);
+    height: 38px;
+    background-image: url("../assets/Images/holografic-background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: height 0.2s;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.active_button{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.link-button{
+    opacity: 0;
+    display: none;
+    width: 100%;
+    background-color: var(--angel-white);
+    color: var(--crazy-blue);
+}
+
+.link-button:hover{
+    background-color: var(--crazy-blue);
+    color: var(--angel-white);
+}
+
+.text-button{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+
+.description-job{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+@media (min-width: 992px){
+    .col-cmd-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}

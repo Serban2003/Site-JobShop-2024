@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="./styles/navbar.css" />
   <link rel="stylesheet" href="./styles/banner_secondary.css" />
   <link rel="stylesheet" href="./styles/team.css" />
-  <link rel="stylesheet" href="./styles/team_card.css" />
+  <link rel="stylesheet" href="./styles/job_opportunities.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
   <title>JobShop® 2024 - Oportunități de carieră</title>
 </head>
@@ -109,6 +109,79 @@
   </header>
   <!-- END BANNER -->
 
+  <div id="team">
+    <div class="head-main"></div>
+    <div class="spacer-band"></div>
+    <div class="spacer w-100"></div>
+    <h1 class="texture-text title poppins-black text-center">
+      <span language="ro">PARTENERI</span>
+      <span language="en">PARTNERS</span>
+    </h1>
+    <div class="spacer w-100"></div>
+    <div class="container main-content mt-4 mb-5">
+      <p class="text-crazy-blue fw-semibold text-center fs-5">
+        <span language="ro">Colaborăm cu parteneri de înaltă calitate, pentru a aduce cele mai bune oportunități de angajare pentru comunitatea noastră.</span>
+        <span language="en">--------------------------------------</span> 
+      </p>
+
+      <div class="row gy-4">
+        <div class="job-card col-cmd-4 col-sm-6 mb-lg-5">
+          <img src="./assets/Images/Companies/logo-Bosch.png" class="card-img-top" loading="lazy" id="imgJob1">
+          <button class="btn job-button text-white px-4" onclick="showJobInfo(1)" id="job1">
+            <div class="text-button" id="buttonText1">
+              <span language="ro">Vezi oferta</span>
+              <span language="en">View offer</span>
+            </div>
+            <p class="description-job fw-semibold" id="descriptionJob1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+            </p>
+
+            <a class="btn link-button fw-semibold" href="https://www.bosch.ro" target="_blank" id="linkButton1">www.bosch.com</a>
+
+          </button>
+        </div>
+        <div class="job-card col-cmd-4 col-sm-6 mb-lg-5">
+          <img src="./assets/Images/Companies/logo-Bosch.png" class="card-img-top" loading="lazy" id="imgJob2">
+          <button class="btn job-button text-white px-4" onclick="showJobInfo(2)" id="job2">
+            <div class="text-button" id="buttonText2">
+              <span language="ro">Vezi oferta</span>
+              <span language="en">View offer</span>
+            </div>
+            <p class="description-job fw-semibold" id="descriptionJob2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+            </p>
+
+            <a class="btn link-button fw-semibold" href="https://www.bosch.ro" target="_blank" id="linkButton2">www.bosch.com</a>
+
+          </button>
+        </div>
+        <div class="job-card col-cmd-4 col-sm-6 mb-lg-5">
+          <img src="./assets/Images/Companies/logo-Bosch.png" class="card-img-top" loading="lazy" id="imgJob3">
+          <button class="btn job-button text-white px-4" onclick="showJobInfo(3)" id="job3">
+            <div class="text-button" id="buttonText3">
+              <span language="ro">Vezi oferta</span>
+              <span language="en">View offer</span>
+            </div>
+            <p class="description-job fw-semibold" id="descriptionJob3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+            </p>
+
+            <a class="btn link-button fw-semibold" href="https://www.bosch.ro" target="_blank" id="linkButton3">www.bosch.com</a>
+
+          </button>
+        </div>
+      </div>
+      
+    </div>
+    <div class="tail-main"></div>
+  </div>
+
   
   <!-- START FOOTER-->
   <footer class="text-center text-white">
@@ -180,3 +253,4 @@
 <script src="./scripts/hide_navbar.js" defer></script>
 <script src="./scripts/position_half_text_onload.js" defer></script>
 <script src="./scripts/play_videos.js" defer></script>
+<script src="./scripts/show_job_info.js" defer></script>
