@@ -14,20 +14,17 @@
     bottom: 0;
     left: 0;
     overflow: hidden;
-}
-
-.active_button{
-    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
-    padding: 1.5rem;
+    align-items: center;
+}
+
+.job-button:hover{
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.175);
 }
 
 .link-button{
-    opacity: 0;
-    display: none;
     width: 100%;
     background-color: var(--angel-white);
     color: var(--crazy-blue);
@@ -39,14 +36,67 @@
 }
 
 .text-button{
-    opacity: 1;
-    transition: opacity 0.15s;
+    animation-name: appear;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
 }
 
-.description-job{
+.description-job, .link-button{
+    animation-name: disappear;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+input[type=checkbox] {
     display: none;
-    opacity: 0;
-    transition: opacity 0.15s;
+}
+
+input:checked + .job-button{
+    height: 100%;
+    padding: 1.5rem;
+}
+
+input:checked + .job-button .text-button{
+    animation-name: disappear;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+input:checked + .job-button .link-button, input:checked + .job-button .description-job{
+    display: block;
+    opacity: 0%;
+    animation-name: appear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear{
+    0%{
+        display: block;
+        opacity: 1;
+    }
+    99%{
+        display: block;
+        opacity: 0;
+    }
+    100%{
+        display: none;
+    }
+}
+
+@keyframes appear{
+    0%{
+        display: none;
+        opacity: 0;
+    }
+    1%{
+        display: block;
+        opacity: 0;
+    }
+    100%{
+        display: block;
+        opacity: 1;
+    }
 }
 
 @media (min-width: 992px){
