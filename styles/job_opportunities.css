@@ -1,11 +1,12 @@
 .job-card{
     position: relative;
+    height: 350px;
 }
 
 .job-button{
-    width: calc(100% - var(--bs-gutter-x));
-    margin-left: calc(var(--bs-gutter-x) / 2);
+    width: calc(100% - var(--bs-gutter-y));
     height: 38px;
+    margin-left: calc(var(--bs-gutter-y) / 2);
     background-image: url("../assets/Images/holografic-background.jpg");
     background-position: center;
     background-size: cover;
