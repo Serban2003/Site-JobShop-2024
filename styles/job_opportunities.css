@@ -1,3 +1,35 @@
+.main-content, .spacer-band{
+    background-color: var(--angel-white);
+    z-index: 1;
+}
+
+.spacer-band{
+    height: 60px;
+}
+
+.title{
+    font-size: 120px;
+    word-wrap: normal;
+    padding: 5px;
+}
+
+.texture-text{
+    background: url("../assets/Images/holografic-background.jpg") no-repeat center top;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.tail-main{
+    background-image: url("../assets/Images/holografic-background-cut.png");
+    background-position: left bottom;
+    background-size: cover;
+    height: 80px;
+}
+
 .job-card{
     position: relative;
     padding-bottom: 38px;
