@@ -24,11 +24,20 @@
     -webkit-text-stroke: 1px white;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 990px) {
     #hts .title{
-      font-size: calc(0.5em + 7vw);
+      font-size: calc(0.5em + 10vw);
     }
     #hts .subtitle{
       font-size: calc(0.5em + 5.5vw);
     }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1920px) {
+    #hts .title{
+      font-size: calc(0.5em + 7vw);
+    }
+    #hts .subtitle{
+        font-size: calc(0.5em + 5.5vw);
+      }
 }
