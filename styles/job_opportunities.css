@@ -119,6 +119,16 @@ input:checked + .job-button{
     padding: 1.5rem;
 }
 
+input:checked + .job-button{
+    height: 100%;
+    padding: 0rem;
+}
+
+input:checked + .job-button .overlay{
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 input:checked + .job-button .text-button{
     animation-name: disappear;
     animation-duration: 0.1s;
