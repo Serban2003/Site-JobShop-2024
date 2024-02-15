@@ -178,3 +178,22 @@ input:checked + .job-button .link-button, input:checked + .job-button .descripti
         width: 33.33333333%;
     }
 }
+
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .title{
+      font-size: 80px;
+    }
+}
+
+  @media only screen and (max-width: 576px) and (min-width: 420px) {
+    .title{
+      font-size: 70px;
+    }
+}
+
+  @media only screen and (max-width: 420px) {
+    .title{
+      font-size: 60px;
+    }
+}
