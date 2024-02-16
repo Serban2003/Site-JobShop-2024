@@ -32,8 +32,8 @@
 
 .job-card{
     position: relative;
-    padding-bottom: 38px;
     height: 250px;
+    padding-bottom: 38px;
     display: flex;
     align-items: center;
 }
@@ -59,7 +59,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    overflow-y: auto;
 }
 
 .job-button:hover{
@@ -69,22 +68,28 @@
 /* -------- Button Scroll bar -------- */
 
   /* Track */
-  .job-button::-webkit-scrollbar-track {
+  .description-job::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.4);
     border-radius: 0.375rem;
   }
   
   /* Handle */
-  .job-button::-webkit-scrollbar-thumb {
+  .description-job::-webkit-scrollbar-thumb {
     background: var(--angel-white);
     border-radius: 0.375rem;
   }
   
   /* Handle on hover */
-  .job-button::-webkit-scrollbar-thumb:hover {
+  .description-job::-webkit-scrollbar-thumb:hover {
     background: var(--crazy-blue);
   }
 
+
+.description-job{
+    height: 150px;
+    padding-right: 5px;
+    overflow-y: auto;
+}
 
 .link-button{
     width: 100%;
@@ -116,15 +121,11 @@ input[type=checkbox] {
 
 input:checked + .job-button{
     height: 100%;
-    padding: 1.5rem;
-}
-
-input:checked + .job-button{
-    height: 100%;
     padding: 0rem;
 }
 
 input:checked + .job-button .overlay{
+    height: 100%;
     padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.3);
 }
