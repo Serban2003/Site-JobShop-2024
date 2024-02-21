@@ -181,15 +181,9 @@ input:checked + .job-button .link-button, input:checked + .job-button .descripti
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 576px) {
-    .title{
-      font-size: 80px;
-    }
-}
-
   @media only screen and (max-width: 576px) and (min-width: 420px) {
-    .title{
-      font-size: 70px;
+    .fs-5{
+        font-size: 1rem !important;
     }
 }
 
@@ -202,8 +196,8 @@ input:checked + .job-button .link-button, input:checked + .job-button .descripti
     }
 }
 
-@media only screen and (max-width: 768px){
-    .title-big{
+@media only screen and (max-width: 1100px){
+    .title-big, .title{
         font-size: 10vw;
     }
 }
