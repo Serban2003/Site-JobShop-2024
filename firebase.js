@@ -25,7 +25,7 @@ function readFile() {
                 actualVisitors = data;
 
                 database.ref('visitors').set({
-                    data
+                    number: data
                 });
             }
         })
