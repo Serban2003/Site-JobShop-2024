@@ -20,7 +20,7 @@ function readFile() {
         .then(response => response.text())
         .then(data => {
 
-            if (actualVisitors != data) {
+            if (actualVisitors != data && !isNaN(parseInt(data))) {
                 document.getElementById('output').innerText = data;
                 actualVisitors = data;
 
