@@ -176,7 +176,7 @@ input:checked+.job-button .description-job {
     }
 
     100% {
-        display: none !important;
+        display: none;
     }
 }
 
