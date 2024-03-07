@@ -1,0 +1,24 @@
+<html>
+
+<body>
+
+<h1>Visitors:<div id="output">0</div></h1>
+
+<script>
+    function readFile() {
+      fetch('visitors.txt')
+        .then(response => response.text())
+        .then(data => {
+          // Update the content in your HTML element
+          document.getElementById('output').innerText = data;
+        })
+        .catch(error => {
+          console.error('Error reading file:', error);
+        });
+    }
+    readFile();
+    setInterval(readFile, 500); 
+  </script>
+</body>
+
+</html>
