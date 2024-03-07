@@ -3,6 +3,11 @@
     z-index: 1;
 }
 
+.card-img-top{
+    display: flex;
+    flex-grow: 0;
+}
+
 .spacer-band{
     height: 60px;
 }
