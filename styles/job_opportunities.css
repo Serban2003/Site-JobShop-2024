@@ -108,6 +108,7 @@
 }
 
 .text-button {
+    display: block;
     animation-name: appear;
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
@@ -175,7 +176,7 @@ input:checked+.job-button .description-job {
     }
 
     100% {
-        display: none;
+        display: none !important;
     }
 }
 
