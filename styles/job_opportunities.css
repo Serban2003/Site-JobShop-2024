@@ -144,10 +144,10 @@ input:checked+.job-button .overlay {
 }
 
 input:checked+.job-button .text-button {
-    -webkit-animation-name: disappear;
+    -webkit-animation-name: disappear !important;
     -webkit-animation-duration: 0.1s;
     -webkit-animation-fill-mode: forwards;
-    animation-name: disappear;
+    animation-name: disappear !important;
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
 }
@@ -166,10 +166,6 @@ input:checked+.job-button .description-job {
 
 @keyframes disappear {
     0% {
-        display: block;
-        opacity: 1;
-    }
-    1% {
         display: block;
         opacity: 1;
     }
