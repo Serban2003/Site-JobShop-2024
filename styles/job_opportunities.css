@@ -143,13 +143,8 @@ input:checked+.job-button .overlay {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-input:checked+.job-button .text-button span {
-    -webkit-animation-name: disappear;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-name: disappear;
-    animation-duration: 0.1s;
-    animation-fill-mode: forwards;
+input:checked+.job-button .text-button span{
+    display: none;
 }
 
 input:checked+.job-button .link-button,
