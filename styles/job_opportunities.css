@@ -89,12 +89,14 @@
 
 
 .description-job {
+    display: none;
     height: 150px;
     padding-right: 5px;
     overflow-y: auto;
 }
 
 .link-button {
+    display: none;
     width: 100%;
     background-color: var(--angel-white);
     color: var(--crazy-blue);
