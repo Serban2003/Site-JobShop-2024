@@ -2,23 +2,14 @@
 
 <body>
 
-<h1>Visitors:<div id="output">0</div></h1>
+  <h1>Visitors:<div id="output">0</div>
+  </h1>
 
-<script>
-    function readFile() {
-      fetch('visitors.txt')
-        .then(response => response.text())
-        .then(data => {
-          // Update the content in your HTML element
-          document.getElementById('output').innerText = data;
-        })
-        .catch(error => {
-          console.error('Error reading file:', error);
-        });
-    }
-    readFile();
-    setInterval(readFile, 500); 
-  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+  <script src="./firebase.js"></script>
 </body>
 
 </html>
