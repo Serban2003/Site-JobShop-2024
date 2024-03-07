@@ -3,10 +3,6 @@
     z-index: 1;
 }
 
-.card-img-top{
-    display: flex;
-    flex-grow: 0;
-}
 
 .spacer-band{
     height: 60px;
@@ -46,7 +42,6 @@
 
 .job-card img{
     width: 100%;
-    height: min-content;
 }
 
 .job-button{
