@@ -1,7 +1,7 @@
 function fetchData() {
     var xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'https://192.168.0.108/visitors.txt', true); // Replace with your server URL and file path
+    xhr.open('GET', 'http://192.168.0.108/visitors.txt', true); // Replace with your server URL and file path
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
