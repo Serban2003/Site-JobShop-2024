@@ -14,7 +14,7 @@ firebase.initializeApp(firebaseConfig);
 
 var database = firebase.database();
 
-var visitorsRef = firebase.database().ref('visitors');
+var visitorsRef = firebase.database().ref('visitors/number');
 visitorsRef.on('value', (snapshot) => {
     const data = snapshot.val();
 
