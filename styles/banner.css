@@ -1,0 +1,98 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+  
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('../assets/video-banner-image.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
+header .title{
+  font-size: 120px;
+  word-wrap: normal;
+  padding: 5px;
+}
+
+header .subtitle{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+header .transparent{
+  color: rgba(0, 0, 0, 0.0001);
+  -webkit-text-stroke: 2.5px var(--angel-white);
+}
+
+header .logo-jobshop{
+  width: 700px;
+}
+
+header .logo-background{
+  background-image: url("../assets/holografic-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 1920px) {
+  header .title{
+    font-size: max(35px, 7.5vw);
+  }
+  header .subtitle{
+    font-size: max(22px, 2.5vw);
+  }
+  header .learn-more{
+    width: 930px;
+  }
+  header .logo-jobshop{
+    width: max(250px, 50vw);
+    height: auto;
+  }
+}
+
+header .learn-more{
+  background-image: url("../assets/Images/holografic-background.jpg");
+  background-size: 150%;
+  background-position: center center;
+  border-radius: var(--radius);
+  width: max(350px, 65vw);
+}
+
+header .offset{
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+header .typewrite{
+  text-align: left;
+}

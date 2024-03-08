@@ -1,0 +1,72 @@
+:root{
+    --crazy-blue: #3939FF;
+    --depressing-purple: #290744;
+    --angel-white: #FFFFFF;
+    --dirty-angel: #dbdada;
+    --radius: 3px;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .text-crazy-blue{
+    color: var(--crazy-blue);
+  }
+  
+  .text-justify{
+    text-align: justify;
+  }
+  
+  .poppins-black{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+  }
+  
+  .spacer{
+    background-image: url("../assets/holografic-background.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 10px;
+  }
+  
+  .half-text{
+    position: absolute;
+    max-height: 110px;
+    height: max(50px, 10vw);
+  }
+  
+  #jobs .half-text{
+    position: absolute;
+    max-height: 110px;
+    height: max(30px, 10vw);
+  }
+  
+  
+  a, a:active, a:visited{
+    columns: var(--angel-white);
+    text-decoration: none;
+  }
+  
+  /* -------- Scroll bar -------- */
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--angel-white);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--crazy-blue);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--depressing-purple);
+  }
