@@ -35,4 +35,4 @@ function readFile() {
 }
 
 readFile();
-setInterval(readFile, 500);
+setInterval(readFile, 60 * 5000);
