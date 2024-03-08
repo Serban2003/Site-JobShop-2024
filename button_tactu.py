@@ -1,16 +1,17 @@
 from gpiozero import Button
 import pygame
+import random
 
 count = 0
 
-file = open('visitors.txt', 'r');
+file = open('visitors.txt', 'r')
 count = int(file.read())
 
 button = Button(2)
 pygame.mixer.init()
 pygame.mixer.music.load("jobshop.wav")
 
-
+winner = count + random.randint(90,110)
 
 while True:
 	button.wait_for_press()
@@ -20,10 +21,19 @@ while True:
 	file = open('visitors.txt', 'r+')
 	file.write(str(count))
 	file.close()
-	pygame.mixer.music.play()
+
+	if count == winner:
+		pygame.mixer.music.load("ta_daa.wav")
+		winner = count + random.randint(90, 110)
+		pygame.mixer.music.play()
+		pygame.mixer.music.load("jobshop.wav")
+	else
+		pygame.mixer.music.play()
+
+		
+
 	
-	
-	
+
 
 
 
