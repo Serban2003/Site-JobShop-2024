@@ -145,7 +145,7 @@ input:checked+.job-button .overlay {
 }
 
 input:checked+.job-button .text-button span{
-    display: none;
+    display: none !important;
 }
 
 input:checked+.job-button .link-button,
