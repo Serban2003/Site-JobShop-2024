@@ -1,3 +1,5 @@
+// Firebase Config
+
 const firebaseConfig = {
     apiKey: "AIzaSyBluoOT6jdcY3TiIioEPCj67Ot3Bj4YPCo",
     authDomain: "jobshop-stand-app.firebaseapp.com",

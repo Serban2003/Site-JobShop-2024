@@ -1,4 +1,4 @@
-:root{
+:root {
   --crazy-blue: #3939FF;
   --depressing-purple: #290744;
   --angel-white: #FFFFFF;
@@ -6,29 +6,29 @@
   --radius: 3px;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-nav{
+nav {
   transition: all 0.3s;
 }
 
-.text-crazy-blue{
+.text-crazy-blue {
   color: var(--crazy-blue);
 }
 
-.text-justify{
+.text-justify {
   text-align: justify;
 }
 
-.poppins-black{
+.poppins-black {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
 }
 
-.custom-button{
+.custom-button {
   border-radius: var(--radius);
   color: var(--crazy-blue);
   background-color: var(--angel-white);
@@ -36,36 +36,38 @@ nav{
   flex-shrink: 0;
 }
 
-.custom-button:hover{
+.custom-button:hover {
   color: var(--angel-white);
   background-color: var(--crazy-blue);
 }
 
-.nowrap{
+.nowrap {
   white-space: nowrap;
 }
 
-.spacer{
+.spacer {
   background-image: url("../assets/Images/holografic-background.jpg");
   background-position: bottom;
   background-size: cover;
   height: 10px;
 }
 
-.half-text{
+.half-text {
   position: absolute;
   max-height: 110px;
   height: max(50px, 10vw);
 }
 
-#jobs .half-text{
+#jobs .half-text {
   position: absolute;
   max-height: 110px;
   height: max(30px, 10vw);
 }
 
 
-a, a:active, a:visited{
+a,
+a:active,
+a:visited {
   columns: var(--angel-white);
   text-decoration: none;
 }
@@ -90,4 +92,10 @@ a, a:active, a:visited{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--depressing-purple);
+}
+
+@media only screen and (max-width: 880px) {
+  .grow-button {
+    width: 100%;
+  }
 }

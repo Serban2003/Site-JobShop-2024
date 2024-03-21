@@ -4,7 +4,7 @@
 }
 #last-edition .main-content{
     background-image: url("../assets/Images/holografic-background-cut.png");
-    background-position: left top;
+    background-position: top;
     background-size: cover;
     overflow: hidden;
     margin-top: -70px;
