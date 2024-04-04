@@ -8,6 +8,7 @@ switch(localStorage.getItem('language')){
         else if(document.title == "JobShop® 2024 - About") document.title = "JobShop® 2024 - Despre";
         else if(document.title == "JobShop® 2024 - Team") document.title = "JobShop® 2024 - Echipă";
         else if(document.title == "JobShop® 2024 - Job Opportunities") document.title = "JobShop® 2024 - Oportunități de carieră";
+        else if(document.title == "JobShop® 2024 - Catalogue") document.title = "JobShop® 2024 - Catalog";
         console.log("RO");
         break;
     }
@@ -21,6 +22,7 @@ switch(localStorage.getItem('language')){
         else if(document.title == "JobShop® 2024 - Despre") document.title = "JobShop® 2024 - About";
         else if(document.title == "JobShop® 2024 - Echipă") document.title = "JobShop® 2024 - Team";
         else if(document.title == "JobShop® 2024 - Oportunități de carieră") document.title = "JobShop® 2024 - Job Opportunities";
+        else if(document.title == "JobShop® 2024 - Catalog") document.title = "JobShop® 2024 - Catalogue";
         console.log("EN");
         break;
     }
@@ -34,6 +36,7 @@ switch(localStorage.getItem('language')){
         else if(document.title == "JobShop® 2024 - About") document.title = "JobShop® 2024 - Despre";
         else if(document.title == "JobShop® 2024 - Team") document.title = "JobShop® 2024 - Echipă";
         else if(document.title == "JobShop® 2024 - Job Opportunities") document.title = "JobShop® 2024 - Oportunități de carieră";
+        else if(document.title == "JobShop® 2024 - Catalogue") document.title = "Catalog";
         console.log("RO");
     }
 }
@@ -46,7 +49,7 @@ $('input:radio[name="language"]').change(function () {
         else if(document.title == "JobShop® 2024 - About") document.title = "JobShop® 2024 - Despre";
         else if(document.title == "JobShop® 2024 - Team") document.title = "JobShop® 2024 - Echipă";
         else if(document.title == "JobShop® 2024 - Job Opportunities") document.title = "JobShop® 2024 - Oportunități de carieră";
-        
+        else if(document.title == "JobShop® 2024 - Catalogue") document.title = "JobShop® 2024 - Catalog";
         $('[language]').hide();
         $('[language="ro"]').show();
         console.log("RO");
@@ -57,7 +60,7 @@ $('input:radio[name="language"]').change(function () {
         else if(document.title == "JobShop® 2024 - Despre") document.title = "JobShop® 2024 - About";
         else if(document.title == "JobShop® 2024 - Echipă") document.title = "JobShop® 2024 - Team";
         else if(document.title == "JobShop® 2024 - Oportunități de carieră") document.title = "JobShop® 2024 - Job Opportunities";
-
+        else if(document.title == "JobShop® 2024 - Catalog") document.title = "JobShop® 2024 - Catalogue";
         $('[language]').hide();
         $('[language="en"]').show();
         console.log("EN");
